@@ -6,11 +6,13 @@
 /*   By: penascim <penascim@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/10 19:42:43 by penascim          #+#    #+#             */
-/*   Updated: 2024/01/10 20:18:49 by penascim         ###   ########.fr       */
+/*   Updated: 2024/01/19 20:54:09 by penascim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-static char	*ft_strjoin(char const *s1, char const *s2)
+#include "get_next_line.h"
+
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	len;
 	size_t	i;
